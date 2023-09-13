@@ -1,0 +1,108 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	mid-career
+------------------------------------------------------------*/
+body {
+    background: url("../img/index/body_bg.jpg") repeat center center;
+    background-size: 150px auto;
+}
+#container {
+    padding: 0 0 256px;
+    position: relative;
+    box-sizing: border-box;
+}
+#gHeader {
+    margin-bottom: -3rem;
+    padding: 8rem 0 0;
+    position: static;
+    background: none;
+}
+#gHeader h1 {
+    width: auto;
+    color: #003397;
+    font-size: 4.5rem;
+    font-weight: normal;
+    text-align: center;
+    font-family: "游明朝","YuMincho","Hiragino Mincho Pro","MS PMincho","ＭＳ Ｐ明朝","ヒラギノ明朝 Pro W6",serif;
+}
+#main .photo {
+    margin: 0 auto -3.2rem;
+    padding: 0 1rem;
+    max-width: 119.2rem;
+}
+#main .content {
+    width: 69.4rem;
+}
+.comLinkUl {
+    margin-right: -2.7rem;
+   position: relative;
+    z-index: 1;
+}
+.comLinkUl li {
+    margin: 0 5rem 3.5rem 0;
+    width: 33.2rem;
+}
+.comLinkUl li:nth-child(2n) {
+    margin-right: 0;
+}
+.comLinkUl li:nth-child(3n) {
+    margin-right: 5rem;
+}
+.comLinkUl li a {
+    height: 7.8rem;
+    font-weight: normal;
+}
+#gFooter {
+    width: 100%;
+    padding-top: 3.5rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+@media (max-width: 750px) {
+    #container {
+        padding-bottom: 0;
+    }
+    #gHeader {
+        margin-bottom: 0;
+        padding: 15px 0 35px;
+    }
+    #gHeader h1 {
+        font-size: 2.65rem;
+    }
+    #main .photo {
+        margin: 0 auto 64px;
+        padding: 0;
+        max-width: inherit;
+    }
+    #main .content {
+        margin: 0 25px 0 43px;
+        width: auto;
+    }
+    .comLinkUl {
+        margin-right: 0;
+        display: block;
+    }
+    .comLinkUl li {
+        margin: 0 0 14px;
+        width: auto;
+    }
+    .comLinkUl li:nth-child(2n) {
+        margin-right: 0;
+    }
+    .comLinkUl li:nth-child(3n) {
+        margin-right: 0;
+    }
+    .comLinkUl li a {
+        height: 66px;
+        font-size: 2.1rem;
+    }
+    .comLinkUl li a .sml {
+        font-size: 1.5rem;
+    }
+    #gFooter {
+        position: static;
+        left: auto;
+        bottom: auto;
+    }
+}

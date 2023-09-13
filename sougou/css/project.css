@@ -1,0 +1,352 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	project
+------------------------------------------------------------*/
+#main {
+	margin-bottom: 15rem;
+    overflow: hidden;
+}
+.mainImg {
+	margin-bottom: 9.36rem;
+}
+.mainImg h2 img {
+	height: 16.7rem;
+	max-width: inherit;
+}
+#main .topTxt {
+	margin-bottom: 7.5rem;
+	line-height: 1.8125;
+}
+#main h3 {
+	margin: 0 -5rem 6.1rem;
+	color: #003399;
+	font-size: 5.5rem;
+	line-height: 1.428;
+    font-weight: normal;
+	font-family: "游明朝", "YuMincho", "Hiragino Mincho Pro", "MS PMincho", "ＭＳ Ｐ明朝", "ヒラギノ明朝 Pro W6", serif;
+	position: relative;
+}
+#main h3::before {
+	width: 9999px;
+	height: 1px;
+	position: absolute;
+	left: 1.4rem;
+	bottom: 0.9rem;
+	background-color: #003399;
+	content: '';
+}
+#main .headLine02 {
+	margin-bottom: 4.3rem;
+}
+#main .imgBox {
+	margin-bottom: 9rem;
+}
+#main .imgBox .textBox {
+	width: 48%;
+}
+#main .imgBox .textBox p {
+	margin-bottom: 2.8rem;
+	line-height: 1.8175;
+}
+#main .imgBox .textBox p:last-child {
+	margin-bottom: 0;
+}
+#main .imgBox .photo {
+	margin-top: 0.5rem;
+	width: 48%;
+}
+#main .imgBox .photo img {
+	width: 100%;
+}
+#main p {
+	margin-bottom: 2.9rem;
+	line-height: 1.8125;
+}
+#main .pho {
+	margin: -0.7rem 0 3.7rem;
+}
+#main .pho img {
+    width: 60%;
+}
+#main .pho + .pho {
+	margin-bottom: 14rem;
+}
+#main h5 {
+	margin-bottom: 0.7rem;
+	color: #003399;
+	font-size: 2.6rem;
+}
+#main .pho02 {
+	margin-bottom: 9.5rem;
+}
+#main .white {
+	margin-bottom: 9.5rem;
+	padding: 3.3rem 2.9rem 2.4rem;
+	border: 1px solid #003399;
+	background-color: #fff;
+}
+#main .white .photoUl li {
+	width: 47.8%;
+}
+#main .white .photoUl li img {
+	width: 100%;
+}
+#main .white .photoUl li p {
+	margin: 1.4rem 0 0;
+	font-size: 1.4rem;
+	font-weight: normal;
+	line-height: 1.357;
+}
+#main .white .photoUl li p span {
+	margin-bottom: 0.8rem;
+	display: block;
+	font-weight: bold;
+	font-size: 1.6rem;
+}
+#main .white .photo .txt {
+	margin-bottom: 1.7rem;
+	font-size: 1.4rem;
+	font-weight: normal;
+	line-height: 1.357;
+}
+#main .white .photo .txt span {
+	margin-bottom: 0.8rem;
+	display: block;
+	font-size: 1.6rem;
+}
+#main .white .photo img {
+	width: 98%;
+}
+#main .white .imgBox {
+	margin-bottom: 0.4rem;
+}
+#main .white .ttl {
+	margin-bottom: 3.4rem;
+	color: #003399;
+	padding-left: 1em;
+	font-size: 2rem;
+	line-height: 1.6;
+	text-indent: -1em;
+}
+#main .white .text {
+	margin-bottom: 4.4rem;
+}
+#main .white .ttl + .pho {
+	margin-bottom: 4.4rem;
+}
+#main .white > *:last-child {
+	margin-bottom: 0 !important;
+}
+#main .white .photo01 img {
+	width: 100%;
+}
+#main .white02 {
+	margin-bottom: 13.6rem;
+}
+#main .txtInn {
+	margin: 4.1rem 0 5.8rem;
+	border: 1px solid #003399;
+}
+#main .txtInn p {
+	padding: 0.3rem 0.5rem 0.9rem;
+	color: #000;
+	font-size: 2.6rem;
+	background: #fff;
+	margin-bottom: 0;
+	text-align: center;
+	border-bottom: 1px solid #003399;
+}
+#main .txtInn ul {
+	margin: 1.3rem auto 1.2rem;
+	max-width: 65rem;
+}
+#main .txtInn ul li {
+	font-size: 2rem;
+	line-height: 1.7;
+}
+#main .text02 {
+	margin: -0.7em 0 9.1rem;
+	font-size: 2rem;
+	text-align: center;
+}
+#main .text02 span {
+	margin-bottom: 0.8rem;
+	display: block;
+	color: #003399;
+	font-weight: bold;
+	font-size: 3.5rem;
+	font-family: "游明朝", "YuMincho", "Hiragino Mincho Pro", "MS PMincho", "ＭＳ Ｐ明朝", "ヒラギノ明朝 Pro W6", serif;
+}
+#main .text02 + h5 + .white .photo .txt {
+	margin: 0.5rem 0 0;
+}
+#main .white .photo02 {
+	width: 64%;
+	margin: 1.7rem -1.2rem 0 -13rem;
+}
+#main .white03 {
+    margin-bottom: 0;
+}
+@media all and (max-width: 750px) {
+	.mainImg h2 img {
+		height: 5rem;
+	}
+	#main .topTxt {
+		margin-bottom: 3.5rem;
+		line-height: 2;
+	}
+	.mainImg {
+		margin-bottom: 3.36rem;
+	}
+	#main h3 {
+		margin: 0 -25px 30px 0;
+		font-size: 2.5rem;
+		line-height: 1.5;
+	}
+	#main h3::before {
+		width: 100%;
+		left: 0;
+		bottom: -1px;
+	}
+	.headLine02 .txt {
+		padding: 1px 3px 1px 7px;
+	}
+	#main .imgBox {
+		margin-bottom: 49px;
+		display: block;
+	}
+	#main .imgBox .textBox {
+		width: auto;
+	}
+	#main .imgBox .photo {
+		margin: 0;
+		width: auto;
+	}
+	#main .headLine02 {
+		margin-bottom: 20px;
+	}
+	#main .imgBox .textBox p {
+		line-height: 2;
+	}
+	#main .imgBox .photo {
+		margin: 32px 0 0;
+	}
+	#main p {
+		line-height: 2;
+	}
+	#main .pho {
+		margin: 30px -25px -15px 0;
+		overflow-x: auto;
+	}
+	#main .pho img {
+		width: 490px;
+		max-width: inherit;
+	}
+	#main .pho + .pho {
+		margin-bottom: 44px;
+	}
+	#main .pho02 {
+		margin: -8px -25px 46px 0;
+	}
+	#main h5 {
+		padding-left: 1em;
+		margin-bottom: 8px;
+		font-size: 1.5rem;
+		text-indent: -1em;
+	}
+	#main .white {
+		margin-bottom: 46px;
+		padding: 13px 19px 23px;
+	}
+	#main .white > p {
+		margin-bottom: 17px;
+	}
+	#main .white .photoUl {
+		width: auto;
+	}
+	#main .white .photoUl li {
+		margin-bottom: 25px;
+		width: auto;
+	}
+	#main .white .photoUl li p {
+		margin-top: 12px;
+		font-size: 1.3rem;
+		line-height: 1.46;
+	}
+	#main .white .photoUl li p span {
+		margin-bottom: 0;
+		font-size: 1.4rem;
+	}
+	#main .white .photo .txt {
+		margin-top: 12px;
+		font-size: 1.3rem;
+		line-height: 1.46;
+	}
+	#main .white .photo .txt span {
+		margin-bottom: 0;
+		font-size: 1.4rem;
+	}
+	#main .white .photoUl li:last-child {
+		margin-bottom: 0;
+	}
+	#main .imgBox01 .photo {
+		margin-top: 12px;
+	}
+	#main .white .photo img {
+		width: 100%;
+	}
+	#main .white .imgBox01 .photo .txt {
+		margin: 17px 0 0;
+	}
+	#main .white .ttl {
+		margin-bottom: 15px;
+		font-size: 1.5rem;
+		line-height: 1.53;
+	}
+	#main .white .text {
+		margin-bottom: 27px;
+	}
+	#main .white .pho {
+		margin: 19px -45px 16px 0;
+	}
+	#main .white .pho img {
+		width: 460px;
+	}
+	#main .txtInn {
+		margin: -18px 0 0;
+	}
+	#main .txtInn p {
+		padding: 0.2rem 0.5rem 0.4rem;
+		font-size: 1.6rem;
+	}
+	#main .txtInn ul {
+		margin: 4px 14px 1px;
+	}
+	#main .txtInn ul li {
+		font-size: 1.4rem;
+		line-height: 2;
+	}
+	#main .txtInn + .pho {
+		margin-top: 19px;
+	}
+	#main .text02 {
+		margin: 34px 0 38px;
+		text-align: left;
+		font-size: 1.4rem;
+		line-height: 2;
+	}
+	#main .text02 span {
+		margin-bottom: -4px;
+		font-size: 2.5rem;
+		text-align: center;
+	}
+	#main .imgBox .photo01 {
+		margin-top: 16px;
+	}
+	#main .text02 + h5 + .white .photo .txt {
+		margin-top: 11px;
+	}
+	#main {
+		margin-bottom: 2rem;
+	}
+}

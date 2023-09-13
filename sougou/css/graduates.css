@@ -1,0 +1,111 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	graduates
+------------------------------------------------------------*/
+body {
+	background: url("../img/graduates/body_bg.jpg") repeat center center;
+    background-size: 1280px auto;
+}
+#main {
+	padding: 7.8rem 2rem 19rem;
+}
+#main .content {
+	width: 106rem;
+}
+#main h2 {
+	margin-bottom: 14.7rem;
+	text-align: center;
+}
+#main h2 img {
+	width: 44rem;
+}
+#main ul {
+	margin: -5rem 0.9rem 0 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#main li {
+	margin-top: 5rem;
+	width: 49.2rem;
+	position: relative;
+}
+#main li a {
+	display: block;
+}
+#main li a:hover {
+	opacity: 0.7;
+}
+#main li .bg {
+	width: 539px;
+	position: absolute;
+	top: -1.4rem;
+	left: -3.2rem;
+	z-index: -1;
+}
+#main li .ttl {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+#main li .ttl img {
+	width: auto;
+	height: 3.7rem;
+}
+#main .liList .bg {
+	left: auto;
+	right: -3.4rem;
+	top: -3rem;
+}
+#gFooter {
+    padding-top: 3.5rem;
+}
+@media all and (max-width: 750px) {
+	#main .content {
+		width: auto;
+	}
+	#main {
+		padding: 2.8rem 2.2rem 5.5rem;
+	}
+	#main h2 {
+		margin-bottom: 4.7rem;
+	}
+	#main h2 img {
+		width: 27rem;
+	}
+	#main ul {
+		margin: 0;
+		display: block;
+	}
+	#main li {
+		margin: 0 0 6.5rem;
+		width: auto;
+	}
+	#main li:last-child {
+		margin-bottom: 0;
+	}
+	#main li .bg {
+		width: 110%;
+		top: -0.8rem;
+		left: -1.8rem;
+	}
+	#main .liList .bg {
+		left: auto;
+		right: -2rem;
+		top: -1.7rem;
+	}
+	#main li .ttl img {
+		height: 2.1rem;
+	}
+}
+@media all and (max-width: 374px) {
+	#main li .ttl img {
+		height: 1.7rem;
+	}
+	#main .liList .bg {
+		right: -1.3rem;
+	}
+}

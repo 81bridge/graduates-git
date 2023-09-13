@@ -1,0 +1,205 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	recruit
+------------------------------------------------------------*/
+.mainImg {
+    margin-bottom: 10rem;
+}
+#main .topText {
+    margin-bottom: 40px;
+    color: #003399;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+#main .title {
+    margin-bottom: 1.2rem;
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+#main .txtList {
+    margin-bottom: 8.8rem;
+}
+#main .txtList li {
+    margin-bottom: -0.1rem;
+    font-size: 1.2rem;
+}
+#main .h3Ttl01 {
+    margin-bottom: 3.9rem;
+}
+#main .txtList01 {
+    margin-bottom: 9.6rem;
+}
+#main .title01 {
+    margin-bottom: 7.8rem;
+}
+#main .comTable01 td {
+    width: 10rem;
+}
+#main .comTable01 th {
+    width: 10rem;
+}
+#main .comTable01 .wid01 {
+    width: 18rem;
+}
+#main .comTable01 th,
+#main .comTable01 td {
+    padding: 0.5rem 0;
+    line-height: 1.2;
+    height: 5rem;
+}
+#main .comTable01 .thStyle01 {
+    padding-left: 3.5rem;
+    text-align: left;
+}
+#main .comTable01 {
+    margin-bottom: 0.8rem;
+}
+#main .txtList02 {
+    margin-bottom: 5.4rem;
+}
+#main .txtList03 {
+    margin-bottom: 8.1rem;
+}
+#main .comTable02 th,
+#main .comTable02 td {
+    padding: 0.25rem 0;
+}
+#main .comTable02 th {
+    width: 21rem;
+}
+#main .comTable02 td {
+    width: 9.5rem;
+}
+#main .comTable02 .thStyle01 {
+    /* letter-spacing: -0.15em; */
+}
+ul.f_2way li {
+    width: 31.3333%;
+}
+.comLinkList {
+    border-bottom: 2px solid #84c600;
+}
+.comLinkList li a {
+    color: #84c600;
+    border: 1px solid #84c600;
+	border-bottom: none;
+}
+.comLinkList li.on a {
+    background-color: #84c600;
+}
+.comLinkList li a::after {
+    background: url(../img/common/icon01.png) no-repeat center center;
+	background-size: cover;
+}
+.comLinkList li.on a::after {
+    background-image: url("../../../graduates/sougou/img/common/icon03.png");
+}
+@media all and (min-width: 751px) {
+    .comLinkList li a:hover {
+        background-color: #84c600;
+    }
+}
+@media all and (max-width: 750px) {
+    .comLinkList li a {
+        border: 1px solid #84c600;
+    }
+}
+.headLine02 .txt {
+	background-color: #84c600;
+}
+.comTable th, 
+.comTable td {
+	border: 1px solid #84c600;
+}
+.comDl dt,
+.comDl dd {
+	border: 1px solid #84c600;
+}
+.comDl dd {
+	border-top: none;
+}
+@media (max-width: 750px) {
+    .mainImg h2 img {
+        height: 25px;
+    }
+    .mainImg {
+        margin-bottom: 40px;
+    }
+    #main .topText {
+        margin-bottom: 30px;
+        font-size: 1.4rem;
+        line-height: 1.55;
+    }
+    #main .title {
+        margin-bottom: 16px;
+        font-size: 1.4rem;
+        line-height: 2;
+    }
+    #main .txtList {
+        margin-bottom: 45px;
+    }
+    #main .txtList li {
+        font-size: 1.3rem;
+    }
+    #main .h3Ttl01 {
+        margin-bottom: 23px;
+    }
+    #main .txtList01 {
+        margin-bottom: 45px;
+    }
+    #main .title01 {
+        margin-bottom: 40px;
+    }
+    #main .tabBox {
+        margin-bottom: 24px;
+        overflow-x: auto;
+    }
+    #main .comTable01 {
+        width: 800px;
+    }
+    #main .comTable01 th,
+    #main .comTable01 td {
+        padding: 3px 0;
+        height: 40px;
+    }
+    #main .comTable01 {
+        margin-bottom: 0;
+    }
+    #main .txtList02 {
+        margin-bottom: 48px;
+    }
+    #main .txtList03 {
+        margin-bottom: 45px;
+    }
+    #main .comTable02 {
+        margin-bottom: 0;
+        width: 800px;
+    }
+    #main .comTable02 th,
+    #main .comTable02 td {
+        padding: 2px 0;
+    }
+    #main .txtList03 li {
+        font-weight: bold;
+        line-height: 2;
+    }
+    #main .comTable02 .thStyle01 {
+        letter-spacing: 0;
+        width: 20rem;
+    }
+	.conditions_table_area {
+		overflow-x: scroll;
+	}
+	ul.f_2way li {
+		width: 100%;
+	}
+	.comLinkList {
+		border-bottom: none;
+	}
+	.comLinkList li.on a::after {
+		background-image: url(../../sougou/img/common/sp_icon02.png);
+	}
+	.comLinkList li a::after {
+		background-image: url(../img/common/sp_icon01.png);
+}
+}

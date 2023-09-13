@@ -1,0 +1,221 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	index
+------------------------------------------------------------*/
+body {
+	background: url("../img/index/body_bg.jpg") repeat center center;
+    background-size: 150px auto;
+}
+#main {
+    padding: 9.3rem 0 3rem;
+}
+#main .content {
+    width: auto;
+    max-width: 128rem;
+    text-align: center;
+}
+#main .img01 {
+    margin-bottom: 1.5rem;
+    padding-right: 4.6rem;
+    position: relative;
+}
+#main .img01 .pho {
+    position: absolute;
+    left: 6.2rem;
+    top: 0;
+}
+#main .img01 img {
+    width: 110.25rem;
+}
+#main .img02 {
+    margin: -6.4rem 10rem 1.6rem;
+    text-align: right;
+}
+#main .img02 img {
+    width: 15.55rem;
+}
+#main .img03 {
+    margin-bottom: 3.5rem;
+    position: relative;
+}
+#main .img03 .pho {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#main .img04 {
+    margin-bottom: 6.2rem;
+    padding-right: 20rem;
+    position: relative;
+}
+#main .img04 .pho {
+    position: absolute;
+    left: 15rem;
+    top: 0;
+}
+#main .img04 img {
+    width: 77.1rem;
+}
+#main .img05 {
+    margin-bottom: 13.2rem;
+    text-align: left;
+    position: relative;
+}
+#main .img05 img {
+    width: 122.5rem;
+}
+#main .img05 .pho {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#main .img06 {
+    margin-bottom: 10.6rem;
+}
+#main .linkList li {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../img/index/photo01.png") no-repeat center center;
+    background-size: cover;
+}
+#main .linkList li:last-of-type {
+    margin-bottom: 0;
+}
+#main .linkList li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main .linkList li img {
+    width: 42.65rem;
+}
+#main .linkList .bg01 {
+    background-image: url("../img/index/photo02.png");
+}
+#main .linkList .bg01 img {
+    width: 35.45rem;
+}
+#main .linkList .bg02 {
+    background-image: url("../img/index/photo03.png");
+}
+#main .linkList .bg02 img {
+    width: 54rem;
+}
+#main .linkList .bg03 {
+    background-image: url("../img/index/photo04.png");
+}
+#main .linkList .bg03 img {
+    width: 40rem;
+}
+#main .linkList .bg04 {
+    background-image: url("../img/index/photo05.png");
+}
+#main .linkList .bg04 img {
+    width: 58.5rem;
+}
+#main .linkList .bg05 {
+    background-image: url("../img/index/photo06.jpg");
+}
+#main .linkList .bg05 img {
+    width: 50.6rem;
+}
+#main .linkList .bg06 {
+    background-image: url("../img/index/photo07.jpg");
+}
+@media all and (max-width: 896px) {
+    #main {
+        padding: 38px 0 20px;
+    }
+    #main .content {
+        margin: 0;
+        width: auto;
+    }
+    #main .img01 {
+        margin-bottom: 18%;
+        padding-right: 0;
+        text-align: left;
+    }
+    #main .img01 .pho {
+        left: 0;
+    }
+    #main .img01 img {
+        width: 95.5%;
+    }
+    #main .img02 {
+        margin: 0 15px 3.5%;
+    }
+    #main .img02 img {
+        width: 39%;
+    }
+    #main .img03 {
+        margin-bottom: 6%;
+    }
+    #main .img04 {
+        margin: 0 0 10% 3%;
+        padding: 0;
+        text-align: left;
+    }
+    #main .img04 .pho {
+        left: 0;
+    }
+    #main .img04 img {
+        width: 94.5%;
+    }
+    #main .img05 {
+        margin-bottom: 16.2%;
+        padding-left: 15%;
+    }
+    #main .img05 img {
+        width: 87%;
+    }
+    #main .img05 .pho {
+        left: 11%;
+        width: 74%;
+    }
+    #main .img06 {
+        margin-bottom: 11.5%;
+    }
+    #main .linkList li {
+        margin-bottom: 10px;
+        height: 124px;
+    }
+    #main .linkList li:last-of-type {
+        margin-bottom: 0;
+    }
+    #main .linkList li img {
+        width: 216px;
+    }
+    #main .linkList .bg01 img {
+        width: 180px;
+    }
+    #main .linkList .bg02 img {
+        width: 274px;
+    }
+    #main .linkList .bg03 img {
+        width: 200px;
+    }
+    #main .linkList .bg04 img {
+        width: 292px;
+    }
+	#main .linkList .bg05 img {
+        width: 252px;
+    }
+    #main .linkList .bg03 {
+        background-image: url("../img/index/sp_photo04.jpg");
+    }
+    #main .linkList .bg04 {
+        background-image: url("../img/index/sp_photo05.jpg");
+    }
+	#main .linkList .bg05 {
+        background-image: url("../img/index/sp_photo06.jpg");
+    }
+	#main .linkList .bg06 {
+		background-image: url("../img/index/sp_photo07.jpg");
+}
+}

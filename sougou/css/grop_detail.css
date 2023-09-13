@@ -1,0 +1,184 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	group
+------------------------------------------------------------*/
+#main {
+	margin-bottom: 10rem;
+    overflow: hidden;
+}
+.mainImg {
+	margin-bottom: 10rem;
+}
+.mainImg h2 img {
+	height: 10.4rem;
+	max-width: inherit;
+}
+#main .logo {
+    margin-bottom: 3.9rem;
+    padding: 2.4rem 0;
+    border-radius: 2rem;
+    text-align: center;
+    background-color: #FFF;
+}
+#main .line {
+    margin-bottom: 5rem;
+    position: relative;
+    border-bottom: 1px solid #00349a;
+}
+#main .line::after {
+    width: 999px;
+    height: 1px;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #00349a;
+    
+    content: "";
+}
+#main h3 {
+    margin-bottom: 5.8rem;
+    color: #003399;
+    font-size: 3.4rem;
+}
+#main h4 {
+    margin-bottom: 4rem;
+}
+#main .imgBox {
+    margin-bottom: 5rem;
+}
+#main .imgBox .photo {
+    margin-right: 4rem;
+    min-width: 30rem;
+}
+#main .imgBox .txtBox {
+    margin-top: -0.5rem;
+    width: 64rem;
+}
+#main .imgBox .txtBox h5 {
+    margin-bottom: 0.5rem;
+    color: #003399;
+    font-size: 2.3rem;
+}
+#main .imgBox .txtBox p {
+    margin-bottom: 2rem;
+    font-size: 1.9rem;
+}
+#main .imgBox .txtBox p:last-of-type {
+    margin-bottom: 0;
+}
+#main dl {
+    padding: 4.3rem 4rem 3.1rem;
+    border: 1px solid #003399;
+    box-sizing: border-box;
+    background-color: #FFF;
+}
+#main dt {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: #003399;
+    font-size: 2.3rem;
+    font-weight: bold;
+    border-bottom: 1px solid #a8a8a8;
+}
+#main dt .inn {
+    margin-right: 1rem;
+    padding: 0 0.8rem;
+    display: inline-block;
+    vertical-align: middle;
+    color: #FFF;
+    font-size: 1.9rem;
+    background-color: #505050;
+}
+#main dd {
+    color: #003397;
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+#main dd a {
+    color: #003397;
+}
+#main .imgBox01 .txtBox {
+    width: auto;
+}
+#main .txtArea {
+    margin-top: 3rem;
+    padding: 3rem;
+    background-color: #ccc;
+}
+#main .txtArea p {
+    text-align: left;
+}
+@media all and (max-width: 750px) {
+	#main {
+		margin-bottom: 5rem;
+	}
+	.mainImg {
+		margin-bottom: 40px;
+	}
+	.mainImg h2 img {
+		height: 2.45rem;
+	}
+    #main .logo {
+        margin-bottom: 20px;
+        padding: 10px 0 9px;
+        border-radius: 10px;
+    }
+    #main .logo img {
+        width: auto;
+        height: 20px;
+    }
+    #main .line {
+        margin-bottom: 25px;
+    }
+    #main h3 {
+        margin-bottom: 23px;
+        font-size: 2.2rem;
+        line-height: 1.55;
+    }
+    #main h4 {
+        margin-bottom: 20px;
+    }
+    #main .imgBox {
+        margin-bottom: 34px;
+        display: block;
+    }
+    #main .imgBox .photo {
+        margin: 0 0 26px;
+        min-width: inherit;
+    }
+    #main .imgBox .photo img {
+        width: 100%;
+    }
+    #main .imgBox .txtBox {
+        margin-top: 0;
+        width: auto;
+    }
+    #main .imgBox .txtBox h5 {
+        margin-bottom: 5px;
+        font-size: 1.5rem;
+    }
+    #main .imgBox .txtBox p {
+        font-size: 1.4rem;
+        line-height: 1.8;
+    }
+    #main dl {
+        padding: 22px 25px 16px;
+    }
+    #main dt {
+        margin-bottom: 13px;
+        padding-bottom: 20px;
+        font-size: 1.55rem;
+    }
+    #main dt .inn {
+        margin-right: 5px;
+        padding: 0 5px;
+        font-size: 1.4rem;
+    }
+#main dd {
+    font-size: 1.4rem;
+    line-height: 2;
+}
+#main dd a {
+    color: #003397;
+}
+}

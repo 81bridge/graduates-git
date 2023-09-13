@@ -1,0 +1,233 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	group
+------------------------------------------------------------*/
+#main {
+	margin-bottom: 10rem;
+}
+.mainImg {
+	margin-bottom: 9.36rem;
+}
+.mainImg h2 img {
+	height: 10.4rem;
+	max-width: inherit;
+}
+#main .topTxt {
+	margin-bottom: 8.5rem;
+	line-height: 1.8125;
+}
+#main h3 {
+	margin-bottom: 1.8rem;
+	color: #003399;
+	font-size: 3.4rem;
+}
+#main .blueTxt {
+	margin-bottom: 2.2rem;
+}
+#main .blueTxt span {
+	padding: 1.1rem 1rem 1rem 7.6rem;
+	color: #fff;
+	font-weight: bold;
+	display: inline-block;
+	background: #003399 url("../img/group/icon01.png") no-repeat left 2.5rem center / 4.1rem auto;
+	border-radius: 3rem;
+}
+#main .blueTxt + p {
+	margin-bottom: 14px;
+}
+#main .link {
+	margin-bottom: 4.9rem;
+}
+#main .link a {
+	width: 24rem;
+	padding: 1rem 1rem 0.7rem;
+	font-size: 1.8rem;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #003399;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1.2;
+	border: 1px solid #003399;
+	box-sizing: border-box;
+}
+#main .link a::after {
+	position: absolute;
+	bottom: 0.9rem;
+	right: -2.7rem;
+	width: 5.2rem;
+	height: 0.7rem;
+	background: url(../img/common/icon06.png) no-repeat right top / 100% auto;
+	content: '';
+}
+#main .link a:hover {
+	opacity: 0.7;
+}
+#main .bgBox {
+	padding: 2.4rem 1rem 5rem;
+	margin-bottom: 3rem;
+	background-color: #003397;
+	border-radius: 2rem;
+}
+#main .bgBox h4 {
+	margin-bottom: 2.7rem;
+	font-size: 2.8rem;
+	color: #fff;
+	text-align: center;
+}
+#main .bgBox .linkUl {
+	margin: -2.9rem auto 0;
+	max-width: 78rem;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#main .bgBox .linkUl li {
+	margin-top: 2.9rem;
+	width: 46.3%;
+}
+#main .bgBox .linkUl li a {
+	padding: 1.9rem 0.1rem 1.84rem;
+	font-size: 1.8rem;
+	height: 100%;
+	font-weight: bold;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	text-align: center;
+	line-height: 1.2;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+}
+#main .bgBox .linkUl li a::after {
+	position: absolute;
+	bottom: 0.9rem;
+	right: -2.7rem;
+	width: 5.2rem;
+	height: 0.7rem;
+	background: url("../img/group/icon02.png") no-repeat right top / 100% auto;
+	content: '';
+}
+#main .bgBox .linkUl li.check a::before {
+	position: absolute;
+	top: -2.2rem;
+	right: -1.1rem;
+	width: 5.6rem;
+	height: 3.2rem;
+	background: url("../img/group/icon01.png") no-repeat right top / 100% auto;
+	content: '';
+}
+#main .bgBox02 {
+	background-color: #145AB4;
+}
+#main .bgBox03 {
+	background-color: #2894E4;
+}
+#main .bgBox04 {
+	background-color: #3CBEC8;
+}
+#main .bgBox05 {
+	background-color: #5ACFB5;
+}
+#main .bgBox06 {
+	background-color: #64D296;
+}
+@media all and (max-width: 750px) {
+	#main {
+		margin-bottom: 5rem;
+	}
+	.mainImg {
+		margin-bottom: 2.36rem;
+	}
+	.mainImg h2 img {
+		height: 2.45rem;
+	}
+	#main .topTxt {
+		margin-bottom: 3.8rem;
+		line-height: 2;
+	}
+	#main h3 {
+		margin-bottom: 1.5rem;
+		font-size: 1.5rem;
+	}
+	#main .blueTxt {
+		margin-bottom: 1.7rem;
+		font-size: 1.06rem;
+	}
+	#main .blueTxt span {
+		display: block;
+		padding: 0.7rem 0.5rem 0.7rem 5.2rem;
+		background-size: 2.8rem auto;
+		background-position: left 1.7rem center;
+		border-radius: 1.3rem;
+	}
+	#main .blueTxt + p {
+		margin-bottom: 1.2rem;
+	}
+	#main .link {
+		margin-bottom: 4rem;
+	}
+	#main .link a {
+		width: 19.7rem;
+		padding: 0.7rem 1rem 0.7rem;
+		font-size: 1.486rem;
+	}
+	#main .link a::after {
+		bottom: 0.7rem;
+		right: -2.2rem;
+		width: 4.1rem;
+		height: 0.5rem;
+	}
+	#main .bgBox {
+		padding: 1.5rem 2rem 2.3rem;
+		margin-bottom: 2rem;
+		border-radius: 1rem;
+	}
+	#main .bgBox h4 {
+		margin-bottom: 2.8rem;
+		font-size: 2rem;
+		color: #fff;
+		text-align: center;
+	}
+	#main .bgBox .linkUl {
+		margin: -1.4rem auto 0;
+		max-width: 78rem;
+		display: block;
+	}
+	#main .bgBox .linkUl li {
+		margin-top: 1.4rem;
+		padding-right: 1.7rem;
+		width: auto;
+	}
+	#main .bgBox .linkUl li a {
+		padding: 1.4rem 0.1rem;
+		font-size: 1.35rem;
+		height: 100%;
+		font-weight: bold;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #fff;
+		text-align: center;
+		line-height: 1.2;
+		border: 1px solid #fff;
+		box-sizing: border-box;
+	}
+	#main .bgBox .linkUl li a::after {
+		 bottom: 0.5rem;
+        right: -1.9rem;
+        width: 3.6rem;
+        height: 0.7rem;
+	}
+	#main .bgBox .linkUl li.check a::before {
+		top: -1.1rem;
+		right: -0.7rem;
+		width: 3.6rem;
+		height: 2.5rem;
+	}
+}

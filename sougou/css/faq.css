@@ -1,0 +1,155 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	recruit
+------------------------------------------------------------*/
+.mainImg {
+    margin-bottom: 11.6rem;
+}
+.mainImg h2 img {
+    height: 8rem;
+}
+#main .bgBox {
+    margin-bottom: 4rem;
+    padding: 3.5rem 5rem 3.8rem;
+    border-radius: 15px;
+    background-color: #FFF;
+}
+#main .bgBox li {
+    margin-bottom: 0.9rem;
+    color: #003399;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+#main .bgBox li a {
+    display: flex;
+    color: #003399;
+}
+#main .bgBox li:last-of-type {
+    margin-bottom: 0;
+}
+#main .bgBox li .en,
+#main .bgBox li .txt {
+    display: block;
+}
+#main dt {
+    margin: 0 0 0.5rem -5rem;
+    display: flex;
+    align-items: center;
+}
+#main dt .en {
+    margin-right: 2.2rem;
+    display: block;
+}
+#main dt .en img {
+    width: auto;
+    height: 6.2rem;
+}
+#main dt .txt {
+    display: block;
+    color: #003397;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#main dd {
+    margin-bottom: 3.5rem;
+    padding-bottom: 4.6rem;
+    color: #505050;
+    font-size: 1.7rem;
+    line-height: 1.85;
+    border-bottom: 2px solid #ccc;
+}
+#main dd:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+#main dd a {
+    text-decoration: underline;
+}
+#main dd .ttl {
+    margin: 15px 0;
+    font-size: 2rem;
+    color: #0069b5;
+    font-weight: bold;
+}
+dt#a07 + dd span {
+    display: block;
+    /* margin-bottom: 24px; */
+    margin: 10px 0;
+}
+dt#a07 + dd span:last-child{
+    margin-bottom: 0;	
+}
+ol.rec_list li {
+    list-style: outside;
+}
+@media (min-width: 751px) {
+    #main dd a:hover {
+        text-decoration: none;
+        opacity: 1;
+    }
+}
+#main {
+    margin-bottom: 8rem;
+}
+@media (max-width: 750px) {
+    .mainImg h2 img {
+        height: 24px;
+    }
+    .mainImg {
+        margin-bottom: 43px;
+    }
+    
+    #main .bgBox {
+        margin-bottom: 55px;
+        padding: 18px 20px 23px;
+        border-radius: 10px;
+    }
+    #main .bgBox li {
+        margin-bottom: 10px;
+        font-size: 1.4rem;
+        line-height: 1.55;
+    }
+    #main .bgBox li:last-of-type {
+        margin-bottom: 0;
+    }
+    #main .bgBox li .txt01 {
+        white-space: nowrap;
+    }
+    #main dt {
+        margin: 0 0 10px;
+        align-items: flex-start;
+    }
+    #main dt .en {
+        margin: 0 5px 0 0;
+        min-width: 59px;
+    }
+    #main dt .en img {
+        height: 31px;
+    }
+    #main dt .txt {
+        font-size: 2.2rem;
+        line-height: 1.6;
+    }
+    #main dd {
+        margin-bottom: 58px;
+        padding-bottom: 18px;
+        font-size: 1.5rem;
+        line-height: 2.1;
+        border-bottom: 1px solid #ccc;
+    }
+    #main dd:last-of-type {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+    #main dd .ttl {
+        font-size: 1.8rem;
+    }
+	span.table_scroll {
+    overflow-x: scroll;
+}
+	span.table_scroll table {
+    width: 1000px;
+}
+}

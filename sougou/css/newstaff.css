@@ -1,0 +1,176 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	newstaff
+------------------------------------------------------------*/
+.mainImg {
+    margin-bottom: 11rem;
+}
+#main .content {
+    width: 110rem;
+}
+#main h3 {
+    margin-bottom: 15.2rem;
+    min-height: 21.5rem;
+}
+#main h3 img {
+    margin-left: -6rem;
+    height: 8rem;
+}
+#main h3 .txt {
+    margin: 3.3rem 0 0 0;
+    display: block;
+    color: #003399;
+    font-size: 3.4rem;
+    line-height: 1.5;
+}
+#main .imgBox {
+    position: relative;
+}
+#main .imgBox .imgtext {
+    position: absolute;
+    right: -1.2rem;
+    top: 4.2rem;
+}
+#main .imgBox .txtBox {
+    padding-left: 6rem;
+    width: 56rem;
+    box-sizing: border-box;
+}
+#main h4 {
+    margin-bottom: 3rem;
+}
+#main h4 img {
+    width: 24.5rem;
+}
+#main .imgBox p {
+    margin-bottom: 11rem;
+    line-height: 1.85;
+}
+#main h5 {
+    margin: 0 6rem 4.1rem;
+    color: #003399;
+    font-size: 2.3rem;
+}
+#main .line {
+    margin: 0 6rem 11rem;
+    padding-top: 9.9rem;
+    border-bottom: 1px solid #a3a3a5;
+}
+#main .txtList {
+    margin: 0 6rem;
+}
+#main .txtList li {
+    width: 48rem;
+}
+#main .txtList li li {
+    margin-bottom: 2.9rem;
+    padding: 2rem 2.8rem 1.8rem;
+    font-size: 1.8rem;
+    line-height: 2.2;
+    border: 1px solid #003398;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #FFF;
+}
+#main .txtList li li::before {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    right: -1px;
+    bottom: -1px;
+    background: url("../img/newstaff/bg.png") no-repeat right bottom;
+    background-size: 31px auto;
+    
+    content: "";
+}
+#main .txtList li li:last-of-type {
+    margin-bottom: 0;
+}
+#main {
+    margin-bottom: 8rem;
+}
+@media (max-width: 750px) {
+    .mainImg h2 img {
+        height: 24px;
+    }
+    .mainImg {
+        margin-bottom: 44px;
+    }
+    #main .content {
+        width: auto;
+    }
+    #main h3 {
+        margin-bottom: 26px;
+        min-height: inherit;
+        display: flex;
+    }
+    #main h3 img {
+        margin: 0 20px 0 0;
+        height: 31px;
+        display: block;
+    }
+    #main h3 .txt {
+        margin: 0;
+        font-size: 2.2rem;
+        line-height: 1.6;
+    }
+    #main .imgBox .imgtext {
+        margin-bottom: 24px;
+        position: static;
+        right: auto;
+        top: auto;
+        text-align: right;
+    }
+    #main .imgBox .txtBox {
+        padding-left: 0;
+        width: auto;
+    }
+    #main h4 {
+        margin-bottom: 22px;
+    }
+    #main h4 img {
+        width: 192px;
+    }
+    #main .imgBox p {
+        margin-bottom: 41px;
+        line-height: 2;
+    }
+    #main h5 {
+        margin: 0 0 23px;
+        font-size: 1.5rem;
+    }
+    #main .line {
+        margin: 0 0 45px;
+        padding-top: 40px;
+        border-bottom: 1px solid #a3a3a5;
+    }
+    #main .txtList {
+        margin: 0;
+    }
+    #main .txtList li {
+        margin-bottom: 19px;
+        width: auto;
+    }
+    #main .txtList li:last-of-type {
+        margin-bottom: 0;
+    }
+    #main .txtList li li {
+        margin-bottom: 19px;
+        padding: 13px 18px 10px;
+        font-size: 1.4rem;
+        line-height: 2;
+    }
+    #main .txtList li li::before {
+        width: 24px;
+        height: 24px;
+        background-size: 24px auto;
+    }
+    #main {
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 374px) {
+    #main h3 .txt {
+        font-size: 2rem;
+    }
+}

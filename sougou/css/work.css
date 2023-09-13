@@ -1,0 +1,85 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	work
+------------------------------------------------------------*/
+.mainImg {
+    margin-bottom: 7.9rem;
+}
+.mainImg h2 img {
+	height: 7.5rem;
+}
+.linkUl {
+    margin-bottom: 53px;
+}
+.linkUl li {
+    margin: 0 9rem 4.5rem 0;
+    width: 26rem;
+}
+.linkUl li a {
+    padding: 0.7rem 1rem 0.5rem;
+    font-size: 2.2rem;
+    height: 6.1rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #003399;
+    text-align: center;
+    line-height: 1.2;
+    border: 1px solid #003399;
+    box-sizing: border-box;
+    font-family: "游明朝","YuMincho","Hiragino Mincho Pro","MS PMincho","ＭＳ Ｐ明朝","ヒラギノ明朝 Pro W6",serif;
+}
+.linkUl li a::after {
+    position: absolute;
+    bottom: 0.9rem;
+    right: -2.7rem;
+    width: 5.2rem;
+    height: 0.7rem;
+    background: url(../img/common/icon06.png) no-repeat right top / 100% auto;
+    content: '';
+}
+.linkUl li:nth-child(3n) {
+    margin-right: 0;
+}
+@media (max-width: 750px) {
+	.mainImg h2 {
+		width: 21rem;
+	}
+    .mainImg h2 img {
+        height: 2.2rem;
+    }
+    .mainImg {
+        margin-bottom: 4rem;
+    }
+    .linkUl {
+        margin-top: -2.4rem;
+        margin-bottom: 4.9rem;
+        padding-right: 1.8rem;
+        justify-content: space-between;
+    }
+    .linkUl li {
+        margin: 2.4rem 0 0 0;
+        width: 46%;
+    }
+    .linkUl li a {
+        padding: 0.7rem 1rem 0.5rem;
+        font-size: 1.6rem;
+        height: 4.6rem;
+        line-height: 1.4;
+    }
+    .linkUl li a span {
+        font-size: 1.3rem;
+    }
+    .linkUl li a::after {
+        bottom: 0.5rem;
+        right: -1.9rem;
+        width: 3.6rem;
+        height: 0.7rem;
+    }
+}
+@media (max-width: 360px) {
+	 .linkUl li a .sml {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,273 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	recruit
+------------------------------------------------------------*/
+.mainImg {
+    margin-bottom: 0;
+    border-top: 1px solid #e5e5e5;
+}
+.mainImg h2 img {
+    height: 18.3rem;
+}
+.comTxtList {
+    margin-bottom: 6.2rem;
+}
+#main .linkList {
+    margin: -1rem -1rem 0 0;
+}
+#main .linkList li {
+    margin: 1rem 1.5rem 0 0;
+}
+#main .linkList li a {
+    color: #2894e4;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#main .linkList .col a {
+    color: #00b2a8;
+}
+#main .bgBox {
+    margin-bottom: 9.5rem;
+    padding: 4.5rem 0 6.5rem;
+    background-color: #FFF;
+}
+@media all and (min-width: 751px) {
+    #main .linkList li a:hover {
+        text-decoration: none;
+        opacity: 1;
+    }
+}
+#main .content01 {
+    width: 112rem;
+}
+#main h3 {
+    margin-left: 5.5rem;
+}
+#main h3 img {
+    width: auto;
+    height: 13.4rem;
+}
+#main .ttlBox {
+    margin-bottom: 5.3rem;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+#main .ttlBox ul {
+    margin: 0 3rem -0.7rem 0;
+}
+#main .ttlBox li {
+    margin-bottom: 0.5rem;
+    font-size: 2.47rem;
+    font-weight: bold;
+    position: relative;
+}
+#main .ttlBox li:last-of-type {
+    margin-bottom: 0;
+}
+#main .ttlBox li::before {
+    width: 2.2rem;
+    height: 2.2rem;
+    position: absolute;
+    left: -3rem;
+    top: 0.8rem;
+    background: #2795e4;
+    
+    content: "";
+}
+#main .ttlBox li:last-of-type::before {
+    background-color: #01b2a8;
+}
+#main .phoList li {
+    margin: 5rem 3.2rem 0 0;
+    width: 35.2rem;
+}
+#main .phoList li:nth-child(3n + 1) {
+    margin-top: -1.5rem;
+}
+#main .phoList li:first-of-type {
+    margin-top: 0;
+}
+#main .phoList li:nth-child(3n) {
+    margin-top: 10rem;
+    margin-right: 0;
+}
+#main .phoList li a {
+    display: block;
+    color: #1d1d1f;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+#main .phoList li .txt {
+    margin: 0 0 0.4rem 1.4rem;
+}
+#main .phoList li .txt .sml {
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}
+#main .phoList li .photo {
+    padding-left: 1.4rem;
+    position: relative;
+}
+#main .phoList li .photo::before {
+    width: calc(100% - 1.4rem);
+    height: 100%;
+    position: absolute;
+    left: 0.3rem;
+    top: 1rem;
+    z-index: -1;
+    background-color: #2795e4;
+    content: "";
+}
+#main .phoList .corLi .photo::before {
+	background: url(../../professional/img/business/icon.jpg) no-repeat bottom left / 100% 100%;
+}
+#main .phoList .bg01 .photo:after {
+	position: absolute;
+	left: 0.3rem;
+	bottom: -11px;
+	 width: calc(100% - 1.4rem);
+	height: 11px;
+	background: url("../img/business/recruit/line01.png") no-repeat;
+	background-size: 100% 10px;
+	content: "";
+}
+#main .phoList li .photo .icon {
+    width: 3.2rem;
+    display: none;
+    position: absolute;
+    right: 2rem;
+    bottom: 1rem;
+}
+#main .phoList {
+    margin-bottom: 2.3rem;
+}
+#main .phoList .col .photo::before {
+    background-color: #42c9ba;
+}
+#main .h3Ttl01 {
+    margin: 13.5rem 0 6.2rem 5.5rem;
+}
+#main .h3Ttl01 img {
+    height: 6.45rem;
+}
+#main {
+    margin-bottom: 15rem;
+}
+@media all and (max-width: 750px) {
+    .mainImg h2 img {
+        height: 53px;
+    }
+    .comTxtList {
+        margin-bottom: 30px;
+    }
+    #main .linkList {
+        margin: -5px -15px 0 0;
+    }
+    #main .linkList li {
+        margin: 5px 15px 0 0;
+    }
+    #main .linkList li a {
+        font-size: 1.3rem;
+    }
+    #main .bgBox {
+        margin-bottom: 15px;
+        padding: 34px 0 26px;
+    }
+    #main .content01 {
+        width: auto;
+    }
+    #main h3 {
+        margin-left: 0;
+    }
+    #main h3 img {
+        height: 67px;
+    }
+    #main .ttlBox {
+        margin-bottom: 43px;
+        display: block;
+    }
+    #main .ttlBox ul {
+        margin: 0 0 25px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    #main .ttlBox li {
+        margin: 0 30px 0 0;
+        font-size: 1rem;
+    }
+    #main .ttlBox li:last-of-type {
+        margin: 0;
+    }
+    #main .ttlBox li::before {
+        width: 10px;
+        height: 10px;
+        left: -10px;
+        top: 2px;
+    }
+    #main .phoList {
+        justify-content: space-between;
+    }
+    #main .phoList li {
+        margin: 25px 0 8px 0;
+        width: 49%;
+    }
+    #main .phoList li:nth-child(3n + 1) {
+        margin-top: 25px;
+    }
+    #main .phoList li:first-of-type {
+        margin-top: 0;
+    }
+    #main .phoList li:nth-child(3n) {
+        margin-top: 25px;
+        margin-right: 0;
+    }
+    #main .phoList li:nth-child(2n + 1) {
+        margin-top: 0;
+    }
+    #main .phoList li a {
+        font-size: 1.5rem;
+    }
+    #main .phoList li .txt {
+        margin: 0 0 1px 10px;
+        font-size: 1.3rem;
+    }
+	#main.business01 .phoList li .txt {
+		font-feature-settings: "palt";
+	}
+    #main .phoList li .txt .sml {
+        font-size: 0.8rem;
+    }
+    #main .phoList li .photo {
+        padding-left: 8px;
+    }
+    #main .phoList li .photo::before {
+        width: calc(100% - 8px);
+        left: 3px;
+        top: 5px;
+    }
+	#main .phoList .bg01 .photo:after {
+		left: 3px;
+		bottom: -5px;
+		height: 6px;
+		 width: calc(100% - 8px);
+		background-size: 100% 6px;
+	}
+    #main .phoList li .photo .icon {
+        width: 16px;
+        right: 10px;
+        bottom: 5px;
+    }
+    #main .phoList {
+        margin-bottom: 25px;
+    }
+    #main .h3Ttl01 {
+        margin: 94px 0 42px;
+    }
+    #main .h3Ttl01 img {
+        height: 32px;
+    }
+    #main {
+        margin-bottom: 50px;
+    }
+}
